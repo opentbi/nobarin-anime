@@ -16,6 +16,7 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "@types/node": "^18.15.11",
+    "@types/prompt-sync": "^4.2.0",
     "@typescript-eslint/eslint-plugin": ">=5.57.0",
     "@typescript-eslint/parser": ">=5.57.0",
     "eslint": "^8.38.0",
@@ -23,5 +24,9 @@
     "eslint-config-xo-typescript": "^0.57.0",
     "tsup": "^6.7.0",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "telegram": "^2.15.15"
   }
 }
